@@ -1,0 +1,6 @@
+{
+  "name": "Oraluxe - Modern Dental Care & Appointment Scheduling",
+  "description": "Modern healthcare and dental booking website inspired by Oraluxe, featuring real-time appointment scheduling, interactive patient dashboard, and automated email notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
