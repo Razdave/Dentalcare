@@ -133,13 +133,8 @@ export const ServicesSection: React.FC = () => {
                 </div>
               </div>
 
-              {/* Price & Book Button */}
-              <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
-                <div>
-                  <span className="text-xs text-slate-600 uppercase font-semibold block">Estimated</span>
-                  <span className="text-xl font-extrabold text-slate-900">${service.price}</span>
-                </div>
-
+              {/* Book Button */}
+              <div className="mt-6 pt-4 border-t border-slate-100 flex justify-end">
                 <button
                   onClick={() => openBookingModal(service)}
                   className="px-4 py-2 rounded-xl bg-slate-900 hover:bg-blue-600 text-white font-medium text-xs transition-colors flex items-center gap-1.5 cursor-pointer group-hover:shadow-md"

@@ -257,7 +257,6 @@ export const BookingModal: React.FC = () => {
                           <Clock className="w-3 h-3 text-blue-500" />
                           {service.durationMinutes} min
                         </span>
-                        <span className="text-blue-700">${service.price}</span>
                       </div>
                     </div>
                   );
@@ -407,7 +406,7 @@ export const BookingModal: React.FC = () => {
                 <div className="space-y-1">
                   <div className="text-xs uppercase font-bold tracking-wider text-blue-600">Selected Visit</div>
                   <div className="font-bold text-slate-900 text-sm">
-                    {selectedService?.name} &bull; ${selectedService?.price}
+                    {selectedService?.name}
                   </div>
                   <div className="text-xs text-slate-600">
                     With {selectedDentist?.name} on <strong className="text-blue-700">{selectedDate}</strong> at <strong className="text-blue-700">{selectedTimeSlot}</strong>
