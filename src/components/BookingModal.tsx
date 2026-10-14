@@ -448,7 +448,7 @@ export const BookingModal: React.FC = () => {
                       type="email"
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      placeholder="e.g. sarah.anderson@example.com"
+                      placeholder="e.g. razdave72@gmail.com"
                       className={`w-full pl-9 pr-3 py-2.5 rounded-xl border text-sm font-medium focus:outline-none focus:ring-2 focus:ring-blue-500 ${
                         formErrors.email ? 'border-red-400 bg-red-50/30' : 'border-slate-200 bg-white'
                       }`}

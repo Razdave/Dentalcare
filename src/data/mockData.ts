@@ -1,12 +1,12 @@
 import { Dentist, DentalService, ToothCondition, PatientProfile, Appointment, EmailNotification } from '../types.ts';
 
-export const HERO_DENTIST_IMAGE = '/src/assets/images/dentist_hero_1791821128305.jpg';
+export const HERO_DENTIST_IMAGE = '/src/assets/images/clinic_new.JPG';
 export const CLINIC_TEAM_IMAGE = '/src/assets/images/clinic_team_1791821139966.jpg';
 
 export const DENTISTS: Dentist[] = [
   {
-    id: 'dr-sarah-jenkins',
-    name: 'Dr. Sarah Jenkins, DDS',
+    id: 'david ibe',
+    name: 'Dr. David Ibe, DDS',
     title: 'Lead Aesthetic & Restorative Dentist',
     specialty: 'Cosmetic & Aesthetic Dentistry',
     rating: 4.98,
@@ -165,7 +165,7 @@ export const INITIAL_TEETH_DATA: ToothCondition[] = Array.from({ length: 32 }, (
 export const INITIAL_PATIENT: PatientProfile = {
   id: 'patient-sarah-101',
   name: 'Sarah Anderson',
-  email: 'sarah.anderson@example.com',
+  email: 'razdave72@gmail.com',
   phone: '+1 (555) 382-9012',
   dob: '1994-08-22',
   insurance: 'Delta Dental Premier (ID: DLT-98214)',
@@ -180,7 +180,7 @@ export const INITIAL_APPOINTMENTS: Appointment[] = [
   {
     id: 'apt-101',
     patientName: 'Sarah Anderson',
-    patientEmail: 'sarah.anderson@example.com',
+    patientEmail: 'razdave72@gmail.com',
     patientPhone: '+1 (555) 382-9012',
     serviceId: 'checkup-cleaning',
     dentistId: 'dr-sarah-jenkins',
@@ -225,7 +225,7 @@ export const INITIAL_APPOINTMENTS: Appointment[] = [
   {
     id: 'apt-104',
     patientName: 'Sarah Anderson',
-    patientEmail: 'sarah.anderson@example.com',
+    patientEmail: 'razdave72@gmail.com',
     patientPhone: '+1 (555) 382-9012',
     serviceId: 'teeth-whitening',
     dentistId: 'dr-sarah-jenkins',
@@ -243,7 +243,7 @@ export const INITIAL_EMAIL_NOTIFICATIONS: EmailNotification[] = [
   {
     id: 'email-201',
     appointmentId: 'apt-101',
-    patientEmail: 'sarah.anderson@example.com',
+    patientEmail: 'razdave72@gmail.com',
     patientName: 'Sarah Anderson',
     subject: 'Appointment Confirmed: Comprehensive Dental Exam at Oraluxe',
     type: 'booking_confirmation',
@@ -302,7 +302,7 @@ export const INITIAL_EMAIL_NOTIFICATIONS: EmailNotification[] = [
   {
     id: 'email-202',
     appointmentId: 'apt-104',
-    patientEmail: 'sarah.anderson@example.com',
+    patientEmail: 'razdave72@gmail.com',
     patientName: 'Sarah Anderson',
     subject: 'Post-Care Instructions & Whitening Maintenance | Oraluxe',
     type: 'post_care_followup',

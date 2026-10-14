@@ -1,7 +1,7 @@
 import React from 'react';
 import { Star, ArrowRight, ShieldCheck, Sparkles } from 'lucide-react';
 import { useDental } from '../context/DentalContext.tsx';
-import { clinic_new } from '../data/mockData.ts';
+import { HERO_DENTIST_IMAGE } from '../data/mockData.ts';
 
 export const HeroSection: React.FC = () => {
   const { openBookingModal, setViewMode } = useDental();
@@ -93,7 +93,7 @@ export const HeroSection: React.FC = () => {
                   </div>
                   <div className="w-9 h-9 rounded-full overflow-hidden border-2 border-white/60 shrink-0 shadow-sm">
                     <img 
-                      src={clinic_new} 
+                      src={HERO_DENTIST_IMAGE}
                       alt="Dr. Sarah" 
                       className="w-full h-full object-cover"
                       referrerPolicy="no-referrer"
@@ -128,7 +128,7 @@ export const HeroSection: React.FC = () => {
               <div className="relative z-10 w-full max-w-[360px] sm:max-w-[420px] lg:max-w-[440px] pt-12 flex items-end">
                 <div className="relative w-full rounded-b-3xl overflow-hidden drop-shadow-2xl">
                   <img
-                    src={clinic_new}
+                    src={HERO_DENTIST_IMAGE}
                     alt="Dr. Sarah Jenkins - Lead Aesthetic Dentist at Oraluxe"
                     className="w-full h-auto object-cover object-top max-h-[540px] transform hover:scale-[1.01] transition-transform duration-500"
                     referrerPolicy="no-referrer"
